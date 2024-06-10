@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sidebar Menu for Admin Dashboard | CodingNepal</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+</head>
+
+<body>
+    <nav class="sidebar">
+        <a href="#" class="logo">SYSSOFT</a>
+
+        <div class="menu-content">
+            <ul class="menu-items">
+                <div class="menu-title">Menu Items</div>
+
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>Set Up</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="menu-items submenu">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Set Up
+                        </div>
+                        <li class="item">
+                            <a href="#">Costomer Info</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Service Company Info</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Supplier Info</a>
+                        </li>
+                        <hr class="horizontal_line">
+                        <li class="item">
+                            <a href="#">Inventory Item</a>
+                        </li>
+                        <hr class="horizontal_line">
+                        <li class="item">
+                            <a href="#">Customize</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>Look In</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="menu-items submenu">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Look In
+                        </div>
+                        <li class="item">
+                            <a href="#">Cheque Register</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Cus.Machine Repair</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Inventory Item<span class="shortcut">F4</span></a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Previous CS Number[s]</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Quick Search</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">VAT number[s]</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>Activities</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="menu-items submenu">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Activities
+                        </div>
+                        <li class="item">
+                            <a href="#">First sublink</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">First sublink</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">First sublink</a>
+                        </li>
+                        <div class="dropdown">
+                            <button class="dropbtn">Dropdown</button>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>Reports</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="menu-items submenu">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Reports
+                        </div>
+                        <li class="item">
+                            <a href="#">First sublink</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">First sublink</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">First sublink</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <div class="submenu-item">
+                        <span>Tools</span>
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+
+                    <ul class="menu-items submenu">
+                        <div class="menu-title">
+                            <i class="fa-solid fa-chevron-left"></i>
+                            Tools
+                        </div>
+                        <li class="item">
+                            <a href="#">Second sublink</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Second sublink</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Second sublink</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Second sublink</a>
+                        </li>
+                        <li class="item">
+                            <a href="#">Second sublink</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="item">
+                    <a href="#">Go to site</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <nav class="navbar">
+        <i class="fa-solid fa-bars" id="sidebar-close"></i>
+    </nav>
+
+    <main class="main">
+
+    </main>
+
+    <script src="../scripts/scripts.js"></script>
+</body>
+
+</html>
